@@ -9,9 +9,11 @@ class AbsensiController extends Controller
     public function index()
     {}
 
-    public function proses_absen (Request $request)
+    public function proses_absensi(Request $request)
     {}
 
     public function dashboard() 
-    {}
+    {
+        return view('pages.dashboard');
+    }
 }

@@ -33,10 +33,13 @@ class KaryawanController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function profile()
     {
-        //
+        return view('pages.profile'); 
     }
+
+    public function edit_profile (Request $request)
+    {}
 
     /**
      * Show the form for editing the specified resource.
